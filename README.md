@@ -1,5 +1,5 @@
 # vueadmin
-
+线上预览地址  vueadmin.cn
 ## Project setup
 ```
 npm install
