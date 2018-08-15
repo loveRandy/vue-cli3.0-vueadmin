@@ -1,0 +1,41 @@
+{
+  "name": "my",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Hui <543245444@qq.com>",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "analyze": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "0.17.1",
+    "element-ui": "2.3.4",
+    "js-cookie": "2.2.0",
+    "normalize.css": "7.0.0",
+    "nprogress": "0.2.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "node-sass": "^4.9.3",
+    "qiniu-webpack-plugin": "^0.4.2",
+    "sass-loader": "^7.1.0",
+    "svg-sprite-loader": "3.5.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
