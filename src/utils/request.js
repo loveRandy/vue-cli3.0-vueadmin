@@ -4,8 +4,16 @@ import store from '../store'
 import { getToken } from '@/utils/auth'
 
 // 创建axios实例
+
+
+// var BASE_API = '';
+// if (process.env.NODE_ENV == 'production') {
+//     BASE_API = '"http://193.112.153.155:3001"';
+// }else{
+//     BASE_API = '"http://193.112.153.155:3001"';
+// }
 const service = axios.create({
-    baseURL: process.env.BASE_URL, // api的base_url
+    baseURL: "http://193.112.153.155:3001", // api的base_url
     timeout: 5000 // 请求超时时间
 })
 
