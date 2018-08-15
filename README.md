@@ -1,5 +1,5 @@
 # vueadmin
-  <a href="vueadmin.cn">线上预览地址</a>
+  <a href="http://www.vueadmin.cn">线上预览地址</a>
 ## Project setup
 ```
 npm install
