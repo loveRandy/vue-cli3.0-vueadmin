@@ -13,6 +13,7 @@
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:rgb(191, 203, 217);
 }
 
 .icon-mima:before { content: "\e620"; }
