@@ -14,8 +14,7 @@ module.exports = {
     // 指定子路径。比如，如果你的应用部署在
     // https://www.foobar.com/my-app/
     // 那么将这个值改为 `/my-app/`
-    // baseUrl: '/',
-    baseUrl: process.env.NODE_ENV === 'production' ? 'http://pbdg8wija.bkt.clouddn.com/build/js/' : '/',
+    baseUrl: '/',
 
     // 将构建好的文件输出到哪里
     outputDir: 'dist',
@@ -84,32 +83,8 @@ module.exports = {
     },
 
     configureWebpack: config => {
-        // console.log(config)
-        // config.module.rules.push({
-        //         test: /\.svg$/,
-        //         loader: 'svg-sprite-loader',
-        //         include: [resolve('src/icons')],
-        //         // include: path.resolve(__dirname, './src/icons'),
-        //         options: {
-        //         symbolId: 'icon-[name]'
-        //         }}
-        // );
-        // config.module.rules.push({
-        //     test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        //     loader: 'url-loader',
-        //     exclude: [resolve('src/icons')]
-        //     // exclude: path.resolve(__dirname, './src/icons')
-        // })
         if (process.env.NODE_ENV === 'production') {
             // 为生产环境修改配置...
-            config.plugins.push(
-                new QiniuPlugin({
-                    ACCESS_KEY: 'p87szI2jFSfB_qgln5eYV2ojKHMXtzKVKO4QFmMX',
-                    SECRET_KEY: '1TwlGTzlSeMuwBF_EaExc0z0VtpAvrtTiQ1OlyHF',
-                    bucket: 'stable',
-                    path: 'build/js/'
-                })
-            );
             if(process.env.npm_lifecycle_event === 'analyze'){
                 config.plugins.push(
                     new BundleAnalyzerPlugin()
@@ -127,12 +102,3 @@ module.exports = {
        
     }
 }
-
-// module.exports = {
-//     chainWebpack: config => {
-//         config.module
-//             .rule('svg')
-//             .use('file-loader')
-//             .loader('svg-sprite-loader')
-//     }
-// }
