@@ -8,6 +8,7 @@
  2、使用vue ui命令就可以呼唤出vue的图形化界面，可以直接在页面上操控项目的配置，这逼格一下上了天。<br>
  ![Image text](https://randy168.com/屏幕快照%202018-08-15%20下午11.04.14.png)  <br><br>
  
+ <h3><a target="_blank" href="http://www.vueadmin.cn">线上预览地址</a></h3>
  
  注意事项：<br><br>
  1、由于个人风格原因，该项目去掉了eslint限制，需要的同学可以自己增加；<br><br>
