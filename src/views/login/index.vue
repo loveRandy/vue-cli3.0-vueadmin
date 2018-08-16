@@ -3,14 +3,18 @@
         <el-form class="login-form" autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left">
             <h3 class="title">Randy</h3>
             <el-form-item prop="username">
-                <span class="iconfont icon-yonghu"></span>
+                <span class="fontcontainer">
+                    <span class="iconfont icon-yonghu"></span>
+                </span>
                 <!-- <span class="svg-container svg-container_login">
                     <svg-icon icon-class="user" />
                 </span> -->
                 <el-input name="username" type="text" v-model="loginForm.username" autoComplete="on" placeholder="username" />
             </el-form-item>
             <el-form-item prop="password">
-                <span class="iconfont icon-mima"></span>
+                <span class="fontcontainer">
+                    <span class="iconfont icon-mima"></span>
+                </span>
                 <!-- <span class="svg-container">
                 <svg-icon icon-class="password"></svg-icon>
                 </span> -->
@@ -190,6 +194,10 @@ $light_gray: #eee;
         color: $dark_gray;
         cursor: pointer;
         user-select: none;
+    }
+    .fontcontainer{
+        color:#889aa4;
+        padding-left:10px;
     }
 }
 </style>
