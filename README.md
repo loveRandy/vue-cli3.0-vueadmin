@@ -11,41 +11,41 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development（运行项目）
+## Compiles and hot-reloads for development（运行项目）
 ```
 
 npm run serve:randy  
 
 ```
 
-### Compiles and minifies for production（打包）
+## Compiles and minifies for production（打包）
 ```
 如果是首次打包或者第三方库文件发生变更，则需要先运行 npm run dll,用于抽离第三方库如vue vuex axios element-ui，此后直接运行npm run build即可
 
 npm run build
 ```
-### analyze your items （项目模块分析）
+## analyze your items （项目模块分析）
 ```
 npm run analyze
 ```
-### 温馨提示
+## 温馨提示
 ```
 在新增vue页面的时候，热更新可能会失效，重启一下项目
 ```
-### Run your tests
+## Run your tests
 ```
 yarn run test
 ```
 
-### Lints and fixes files
+## Lints and fixes files
 ```
 yarn run lint
 ```
 
-### Run your unit tests
+## Run your unit tests
 ```
 yarn run test:unit
 ```
 
-### Customize configuration
+## Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
