@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon123.ico">
-    <title>randy</title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>loveRandy</title>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but my doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but vue-admin doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <div class="ajax-loading" id="ajaxLoading" style="display: none;">
+        <div class="overlay"></div>
+        <div class="loading">
+          <img src="https://media.number-7.cn/ebike-h5/static/images/common/loading.gif" alt="">
+          <span>加载中，请稍后...</span>
+        </div>
+      </div>
   </body>
 </html>

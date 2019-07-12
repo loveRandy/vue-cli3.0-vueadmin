@@ -1,0 +1,39 @@
+$mainColor:#151519;
+
+@mixin table-center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@mixin poa-center($w, $h) {
+    position: absolute;
+    width: $w;
+    height: $h;
+    left: 50%;
+    top: 50%;
+    transition: translate(-50%, -50%)
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin t-overflow($line:1) {
+    @if $line==1 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    @else {
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+
