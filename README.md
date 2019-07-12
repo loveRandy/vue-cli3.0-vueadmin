@@ -3,8 +3,6 @@
 
 #
 <h2><a href="http://www.vueadmin.cn">线上地址</a></h2>
-#
-
 ## Project setup（安装包）
 ```
 这里需要使用npm进行安装，如果用cnpm或者yarn会有热更新失效的问题
