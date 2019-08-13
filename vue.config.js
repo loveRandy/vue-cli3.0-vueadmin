@@ -13,7 +13,7 @@ function resolve(dir) {
 }
 const proxyTargetMap = {
     prod: 'https://xxx.xxx.com/',
-    randy: 'http://193.112.153.155:3001',
+    randy: 'http://47.105.71.81:3306',
     peter: 'http://192.168.11.178:3001'
 }
 let proxyTarget = proxyTargetMap[process.env.API_TYPE] || proxyTargetMap.prod
