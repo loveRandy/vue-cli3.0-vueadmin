@@ -36,4 +36,4 @@
    #### 温馨提示
    在新增vue页面的时候，热更新可能会失效，重启一下项目
   
-### <a target="_blank" href="https://github.com/loveRandy/react-admin">react版本请移步</a>
+### <a target="_blank" href="https://github.com/loveRandy/react-admin">React版本请移步</a>
