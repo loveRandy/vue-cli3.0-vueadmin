@@ -3,6 +3,7 @@
 
 
  ### <a target="_blank" href="http://www.vueadmin.cn">线上预览地址</a>
+ ### <a target="_blank" href="https://github.com/loveRandy/react-admin">React版本请移步</a>
   
 
 #### 脚手架版本:
