@@ -37,4 +37,4 @@
    #### 温馨提示
    在新增vue页面的时候，热更新可能会失效，重启一下项目
   
-### <a target="_blank" href="http://www.randy168.com">个人博客系统</a>
+### <a target="_blank" href="http://www.randy168.com">个人博客系统:www.randy168.com</a>
