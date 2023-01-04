@@ -23,10 +23,10 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^3.8.0",
-    "@vue/cli-plugin-unit-jest": "^3.8.0",
-    "@vue/cli-service": "^3.8.0",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "add-asset-html-webpack-plugin": "^3.1.3",
